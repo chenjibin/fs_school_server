@@ -1,0 +1,7 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/25 - 08:38:21.175	[31merror[0m	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/25 - 08:50:19.277	[34minfo[0m	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/25 - 08:50:19.279	[34minfo[0m	use middleware logger
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/25 - 08:50:19.279	[34minfo[0m	use middleware cors
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/25 - 08:50:19.279	[34minfo[0m	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/25 - 08:50:19.282	[34minfo[0m	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/25 - 08:50:19.283	[34minfo[0m	server run success on 	{"address": ":8888"}

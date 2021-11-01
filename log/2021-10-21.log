@@ -1,0 +1,29 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:39:29.854	[31merror[0m	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:39:40.765	[34minfo[0m	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:39:40.766	[34minfo[0m	use middleware logger
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:39:40.766	[34minfo[0m	use middleware cors
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:39:40.766	[34minfo[0m	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:39:40.768	[34minfo[0m	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:39:40.768	[34minfo[0m	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:42:41.337	[31merror[0m	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:43:29.940	[34minfo[0m	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:43:29.942	[34minfo[0m	use middleware logger
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:43:29.942	[34minfo[0m	use middleware cors
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:43:29.942	[34minfo[0m	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:43:29.943	[34minfo[0m	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:43:29.943	[34minfo[0m	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:08.251	[31merror[0m	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:18.432	[34minfo[0m	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:18.434	[34minfo[0m	use middleware logger
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:18.434	[34minfo[0m	use middleware cors
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:18.434	[34minfo[0m	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:18.435	[34minfo[0m	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:18.435	[34minfo[0m	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 10:54:40.867	[31merror[0m	更新失败!	{"err": "Error 1292: Incorrect datetime value: '0000-00-00' for column 'created_at' at row 1"}
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 11:06:07.462	[31merror[0m	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 11:06:15.538	[34minfo[0m	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 11:06:15.539	[34minfo[0m	use middleware logger
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 11:06:15.539	[34minfo[0m	use middleware cors
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 11:06:15.539	[34minfo[0m	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 11:06:15.540	[34minfo[0m	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2021/10/21 - 11:06:15.540	[34minfo[0m	server run success on 	{"address": ":8888"}
