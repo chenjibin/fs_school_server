@@ -13,7 +13,6 @@ import (
 )
 
 type SchoolApi struct {
-
 }
 
 // @Tags SysSchool
@@ -38,7 +37,7 @@ func (s *SchoolApi) CreateSchool(c *gin.Context) {
 	}
 	err, schoolReturn := schoolService.CreateSchool(*school)
 	if err != nil {
-		global.GVA_LOG.Error("注册失败!", zap.Any("err", err))
+		global.GVA_LOG.Error("创建失败!", zap.Any("err", err))
 		response.FailWithDetailed(systemRes.SysSchoolResponse{School: schoolReturn}, "创建失败!", c)
 	} else {
 		response.OkWithDetailed(systemRes.SysSchoolResponse{School: schoolReturn}, "创建成功!", c)

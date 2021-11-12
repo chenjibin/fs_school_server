@@ -16,4 +16,5 @@ type ServiceGroup struct {
 	SystemConfigService
 	UserService
 	SchoolService
+	CourseService
 }

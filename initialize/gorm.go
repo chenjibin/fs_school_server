@@ -39,6 +39,7 @@ func MysqlTables(db *gorm.DB) {
 	err := db.AutoMigrate(
 		system.SysUser{},
 		system.SysSchool{},
+		system.SysCourse{},
 		system.SysAuthority{},
 		system.SysApi{},
 		system.SysBaseMenu{},

@@ -24,7 +24,7 @@ func Routers() *gin.Engine {
 	//Router.LoadHTMLGlob("./dist/*.html") // npm打包成dist的路径
 	//Router.Static("/favicon.ico", "./dist/favicon.ico")
 	//Router.Static("/static", "./dist/static")   // dist里面的静态资源
-	//Router.StaticFile("/", "./dist/index.html") // 前端网页入口页面
+	//Router.Static("/adminApp", "../resource/dist/index.html") // 前端网页入口页面
 
 	Router.StaticFS(global.GVA_CONFIG.Local.Path, http.Dir(global.GVA_CONFIG.Local.Path)) // 为用户头像和文件提供静态地址
 	// Router.Use(middleware.LoadTls())  // 打开就能玩https了
@@ -58,6 +58,7 @@ func Routers() *gin.Engine {
 		systemRouter.InitJwtRouter(PrivateGroup)                    // jwt相关路由
 		systemRouter.InitUserRouter(PrivateGroup)                   // 注册用户路由
 		systemRouter.InitSchoolRouter(PrivateGroup)                 // 注册机构路由
+		systemRouter.InitCourseRouter(PrivateGroup)                 // 注册课程路由
 		systemRouter.InitMenuRouter(PrivateGroup)                   // 注册menu路由
 		systemRouter.InitSystemRouter(PrivateGroup)                 // system相关路由
 		systemRouter.InitCasbinRouter(PrivateGroup)                 // 权限相关路由

@@ -1,0 +1,7 @@
+latest_log
+log
+.idea
+/server.cer
+/server.key
+/resource/dist/
+/uploads/
